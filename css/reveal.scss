@@ -1541,3 +1541,17 @@ $prefix: hsg-countdown;
 		}
 	}
 }
+
+.reveal {
+	.clear {
+		&::after {
+			content: '';
+			display: block;
+			clear: both;
+		}
+	}
+	.halfblock {
+		float: left;
+		width: 50%;
+	}
+}

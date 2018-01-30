@@ -1396,3 +1396,12 @@ body {
       content: '';
       display: block;
       clear: both; }
+
+.reveal .clear::after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.reveal .halfblock {
+  float: left;
+  width: 50%; }
